@@ -20,19 +20,19 @@
             <input type='text' readonly class='form-control' id='id_medicamento' name='id_medicamento' aria-describedby='id_medicamento' value='$id_medicamento'>
         </div>
         <div class='form-group'>
-            <label for='nombre'>nombre</label>
+            <label for='nombre'>Nombre</label>
             <input type='text' class='form-control' id='nombre' name='nombre' aria-describedby='nombre' value='$nombre'>
         </div>
         <div class='form-group'>
-            <label for='tipo'>tipo</label>
+            <label for='tipo'>Tipo</label>
             <input type='text' class='form-control' id='tipo' name='tipo' aria-describedby='tipo' value='$tipo'>
         </div>
         <div class='form-group'>
-            <label for='lote'>lote</label>
+            <label for='lote'>lLote</label>
             <input type='text' class='form-control' id='lote' name='lote' aria-describedby='lote' value='$lote'>
         </div>
         <div class='form-group'>
-            <label for='precio'>precio</label>
+            <label for='precio'>Precio</label>
             <input type='text' class='form-control' id='precio' name='precio' aria-describedby='precio' value='$precio'>
         </div>
         ";

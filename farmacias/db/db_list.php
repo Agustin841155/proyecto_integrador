@@ -4,7 +4,7 @@
     $resultado = $db->query("SELECT * from farmacias;");
 
     $table = "
-        <table class='table'>
+        <table class='table' border=3>
             <thead>
             <tr>
                 <th>id_farmacia</th>

@@ -11,24 +11,24 @@
 </head>
 <body>
     <div class="container-fluid">
-        <h1>Insertar nuevo producto</h1>
-        <a href="index.php">Lista de medicamentos</a>
+        <h1>Insertar nueva farmacia</h1>
+        <a href="index.php">Lista de farmacias</a>
         <form action="db/db_insert.php" method="GET">
             <div class="form-group">
                 <label for="nombre">Nombre</label>
-                <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombre" placeholder="Ingresa el nombre del medicamento">
+                <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombre" placeholder="Ingresa el nombre de la farmacia">
             </div>
             <div class="form-group">
-                <label for="tipo">Tipo</label>
-                <input type="text" class="form-control" id="tipo" name="tipo" aria-describedby="tipo" placeholder="Ingresa que tipo de medicamento es">
+                <label for="domicilio">Domicilio</label>
+                <input type="text" class="form-control" id="domicilio" name="domicilio" aria-describedby="domicilio" placeholder="Ingresa la ubicacion de la farmacia">
             </div>
             <div class="form-group">
-                <label for="lote">Lote</label>
-                <input type="text" class="form-control" id="lote" name="lote" aria-describedby="lote" placeholder="Ingresa el numero de lote">
+                <label for="telefono">Telefono</label>
+                <input type="text" class="form-control" id="telefono" name="telefono" aria-describedby="telefono" placeholder="Ingresa el numero telefonico">
             </div>
             <div class="form-group">
-                <label for="precio">Precio</label>
-                <input type="text" class="form-control" id="precio" name="precio" aria-describedby="precio" placeholder="Ingresa el precio del medicamento">
+                <label for="servicio">Servicio</label>
+                <input type="text" class="form-control" id="servicio" name="servicio" aria-describedby="servicio" placeholder="Ingresa de que dia a que dia hay servicio">
             </div>
             <button type="submit" class="btn btn-primary">Insertar</button>
         </form>
