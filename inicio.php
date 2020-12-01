@@ -161,7 +161,7 @@ body{
 		<div class="login">
 				<input type="text" placeholder="Usuario" name="user"><br>
 				<input type="password" placeholder="Contraseña" name="password"><br>
-				<input type="submit" value="Entrar">
+				<input type="submit" hreft=index.php value="Entrar">
 		</div>
   </body>
 </html>

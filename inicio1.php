@@ -1,4 +1,13 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
 <html>
 	<head>
 		<title>Pagina principal Medi-Life</title>
@@ -7,8 +16,8 @@
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io">
-      <img src="" width="112" height="28">
+    <a  >
+      <img src="https://lh4.googleusercontent.com/HjL1M2wGzXQ0z7USlZovN9Hfp36S7er5OallLqDhI7uSlO8HxoqPtDFTume0kiM57Mzwd0aC=w16383" width="90" height="50">
     </a>
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
       <span aria-hidden="true"></span>
@@ -19,10 +28,10 @@
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
+      <a class="navbar-item" href="https://8080-bee9e9f0-231b-4b2f-ad4b-f9d22d0728ac.ws-us02.gitpod.io/inicio1.php">
         Inicio
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" href="https://drive.google.com/file/d/1LJHU2mhz_v5rlBK7yMtxLfb9kcC0KWI5/view">
         Conocenos
       </a>
       <div class="navbar-item has-dropdown is-hoverable">
@@ -48,19 +57,6 @@
       </div>
     </div>
     
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Cerrar Sesion</strong>
-          </a>
-          <a class="button is-light">
-            Cambiar de Cuenta
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 </nav>
 <br>
 <article class="panel is-primary">
@@ -68,25 +64,25 @@
     Medi-Life
   </p>
   <p class="panel-tabs">
-    <a class="is-active">Consulta de medicamentos</a>
-    <a>Consulta de Farmacias</a>
+    <a class="is-active" href="https://sites.google.com/utectulancingo.edu.mx/medi-life">Ingresa a nuestro sitio </a>
+    
   </p>
   <div class="panel-block">
     <p class="control has-icons-left">
-      <input class="input is-primary" type="text" readonly class='form-control' placeholder="Acceder como">
+      <input class="input is-primary" type="text" readonly class='form-control' placeholder="Acceder como:">
       <span class="icon is-left">
         <i class="fas fa-search" aria-hidden="true"></i>
       </span>
     </p>
   </div>
-  <a class="panel-block is-active">
-    <span class="panel-icon">
+  <a class="panel-block is-active" href="inicio.php">
+    <span class="panel-icon" >
       <i class="fas fa-book" aria-hidden="true"></i>
     </span>
     Usuario Registrado
   </a>
-  <a class="panel-block">
-    <span class="panel-icon">
+  <a class="panel-block" href="publico/index.php">
+    <span class="panel-icon" >
       <i class="fas fa-book" aria-hidden="true"></i>
     </span>
     Usuario Publico
