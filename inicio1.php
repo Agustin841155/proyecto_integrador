@@ -93,7 +93,7 @@
           <p class="title">¿Nuestros objetivos?</p>
           <p class="subtitle">Tu Salud</p>
           <figure class="image is-4by3">
-            <img src="https://bulma.io/images/placeholders/640x480.png">
+            <img src="https://img.vixdata.io/pd/webp-large/es/sites/default/files/c/cientifico-medico-cerebro-holograma.jpg">
           </figure>
         </article>
       </div>
@@ -102,7 +102,7 @@
 <div class="media-content">
     <div class="field">
       <p class="control">
-        <textarea class="textarea" placeholder="Add a comment..."></textarea>
+        <textarea class="textarea" placeholder="Agrega un comentario..."></textarea>
       </p>
     </div>
 <nav class="level">
@@ -121,13 +121,6 @@
 <br>
   <div class="tabs is-boxed">
   <ul>
-    <li class="is-active">
-      <a>
-        <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
-        <span>Soporte</span>
-      </a>
-    </li>
-    <li>
       <a>
         <span class="icon is-small"><i class="fas fa-music" aria-hidden="true"></i></span>
         <span>Quejas & Sugerencias</span>
@@ -140,10 +133,7 @@
       </a>
     </li>
     <li>
-      <a>
-        <span class="icon is-small"><i class="far fa-file-alt" aria-hidden="true"></i></span>
-        <span>Articulo sobre salud mental</span>
-      </a>
+      
     </li>
   </ul>
 </div>
